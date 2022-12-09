@@ -1,9 +1,9 @@
-package com.example.product_junit_testing.controller;
+package com.example.product_test.controller;
 
-import com.example.product_junit_testing.dto.ProductDto;
-import com.example.product_junit_testing.model.Product;
-import com.example.product_junit_testing.service.ProductService;
-import com.example.product_junit_testing.utils.APIResponse;
+import com.example.product_test.dto.ProductDto;
+import com.example.product_test.model.Product;
+import com.example.product_test.service.ProductService;
+import com.example.product_test.utils.APIResponse;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

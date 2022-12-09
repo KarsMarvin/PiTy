@@ -1,6 +1,6 @@
-package com.example.product_junit_testing.utils;
+package com.example.product_test.utils;
 
-import com.example.product_junit_testing.model.Product;
+import com.example.product_test.model.Product;
 
 public class APIResponse {
     private boolean status;

@@ -1,6 +1,6 @@
-package com.example.product_junit_testing.model;
+package com.example.product_test.model;
 
-import com.example.product_junit_testing.dto.ProductDto;
+import com.example.product_test.dto.ProductDto;
 import com.sun.istack.NotNull;
 
 import javax.persistence.*;

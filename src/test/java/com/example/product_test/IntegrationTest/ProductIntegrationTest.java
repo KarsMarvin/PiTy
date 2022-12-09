@@ -1,8 +1,7 @@
-package com.example.product_junit_testing.IntegrationTest;
+package com.example.product_test.IntegrationTest;
 
-import com.example.product_junit_testing.dto.ProductDto;
-import com.example.product_junit_testing.model.Product;
-import com.example.product_junit_testing.utils.APIResponse;
+import com.example.product_test.dto.ProductDto;
+import com.example.product_test.model.Product;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.json.JSONException;
@@ -20,8 +19,6 @@ import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.http.*;
 //import org.springframework.security.core.parameters.P;
 import org.springframework.test.context.junit4.SpringRunner;
-
-import java.util.Objects;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)

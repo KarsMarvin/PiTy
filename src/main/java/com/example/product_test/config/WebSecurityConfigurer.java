@@ -1,4 +1,4 @@
-package com.example.product_junit_testing.config;
+package com.example.product_test.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;

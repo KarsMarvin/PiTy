@@ -1,9 +1,9 @@
-package com.example.product_junit_testing.controller;
+package com.example.product_test.controller;
 
-import com.example.product_junit_testing.dto.ProductDto;
-import com.example.product_junit_testing.model.Product;
-import com.example.product_junit_testing.service.ProductService;
-import com.example.product_junit_testing.utils.APIResponse;
+import com.example.product_test.dto.ProductDto;
+import com.example.product_test.model.Product;
+import com.example.product_test.service.ProductService;
+import com.example.product_test.utils.APIResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -20,7 +20,7 @@ public class ProductController {
     @Autowired
     private ProductService productService;
 
-    @GetMapping()
+    @GetMapping("/getAll")
     public List<Product> listProducts(){
         return  productService.getAll();
     }
@@ -28,7 +28,7 @@ public class ProductController {
     public ResponseEntity<APIResponse> getById(@PathVariable(name = "id") Long id){
         return productService.getById(id);
     }
-    @PostMapping()
+    @PostMapping("/add")
     public ResponseEntity<?> create(@RequestBody @Valid ProductDto productDto){
         return productService.create(productDto);
     }

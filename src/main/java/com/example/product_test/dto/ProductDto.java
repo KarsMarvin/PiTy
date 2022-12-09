@@ -1,4 +1,4 @@
-package com.example.product_junit_testing.dto;
+package com.example.product_test.dto;
 
 import com.sun.istack.NotNull;
 

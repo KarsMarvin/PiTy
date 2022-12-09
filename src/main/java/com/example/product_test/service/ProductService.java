@@ -1,10 +1,10 @@
-package com.example.product_junit_testing.service;
+package com.example.product_test.service;
 
 
-import com.example.product_junit_testing.dto.ProductDto;
-import com.example.product_junit_testing.model.Product;
-import com.example.product_junit_testing.repository.ProductRepository;
-import com.example.product_junit_testing.utils.APIResponse;
+import com.example.product_test.dto.ProductDto;
+import com.example.product_test.model.Product;
+import com.example.product_test.repository.ProductRepository;
+import com.example.product_test.utils.APIResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
